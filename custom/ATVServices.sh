@@ -238,7 +238,7 @@ webhook() {
 autoupdate() {
 	# Autoupdate this script
 	# emagisk_version=$(grep -o 'versionCode=[0-9]*' /data/adb/modules/emagisk/module.prop -C0 | cut -d '=' -f 2)
-	autoupdate_url="https://raw.githubusercontent.com/Astu04/eMagisk/master/custom/ATVServices.sh"
+	autoupdate_url="https://raw.githubusercontent.com/Zyahko/eMagisk/CosmogTest/custom/ATVServices.sh"
 	script_path="/data/adb/modules/emagisk/ATVServices.sh"
 	cd /data/local/tmp/
 
